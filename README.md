@@ -1,5 +1,5 @@
 # MansAutoLogin
-Tampermonkey Auto login scripts for Myu and Moodle platforms for Mansoura University
+Tampermonkey Auto login scripts for My U and Moodle platforms for Mansoura University
 
 ## Installation
 
