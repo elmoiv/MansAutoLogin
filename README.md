@@ -16,4 +16,4 @@ Tampermonkey Auto login scripts for Myu and Moodle platforms for Mansoura Univer
  **Now next time when you open Moodle or My U you will be logged in automatically.**
  
  ## Notes
- Make sure your log in data (Username and password) are auto-fill enableb in your browser
+ Make sure your log in data (Username and password) are auto-fill enabled in your browser
