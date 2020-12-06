@@ -10,7 +10,7 @@
 
 (function() {
     'use strict';
-    // Wait 5 seconds
+    // Wait 1 seconds
     setTimeout(clickLogin, 1000);
 })();
 
