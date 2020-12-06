@@ -7,7 +7,7 @@ Tampermonkey Auto login scripts for My U and Moodle platforms for Mansoura Unive
  - Tampermonkey icon will appear in the taskbar, select Dashboard:
  
  ![](https://i.imgur.com/VsPCZgQ.png)
- - Select the **+** button next to *Installed userscripts* tab
+ - Select the **+** button next to *Installed userscripts* tab:
  
  ![](https://i.imgur.com/YsXC3Ou.png)
  - Paste the content of [Moodle script](https://github.com/elmoiv/MansAutoLogin/blob/main/Moodle.js) into the text editor and hit `Ctrl + S` to save the script.
