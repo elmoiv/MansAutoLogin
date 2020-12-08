@@ -10,8 +10,8 @@
 
 (function() {
     'use strict';
-    // Wait 1 seconds
-    setTimeout(clickLogin, 1000);
+    // Wait 2 seconds
+    setTimeout(clickLogin, 2000);
 })();
 
 // Click Login Button
