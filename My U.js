@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         MYU Automatic Login
-// @namespace    http://tampermonkey.net/
+// @namespace    https://elmoiv.github.io/
 // @version      0.1
 // @description  Click myu login button
 // @author       elmoiv
@@ -10,11 +10,7 @@
 
 (function() {
     'use strict';
-    // Wait 1 seconds
-    setTimeout(clickLogin, 1000);
+    window.onload = function () {
+        document.getElementsByClassName("btn ls-dark-btn col-md-12 col-sm-12 col-xs-12")[0].click();
+    }
 })();
-
-// Click Login Button
-function clickLogin () {
-    document.getElementsByClassName("btn ls-dark-btn col-md-12 col-sm-12 col-xs-12")[0].click();
-}
