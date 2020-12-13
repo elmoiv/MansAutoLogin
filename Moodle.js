@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Moodle Automatic Login
-// @namespace    http://tampermonkey.net/
+// @namespace    https://elmoiv.github.io/
 // @version      0.1
 // @description  Click Moodle log in button
 // @author       elmoiv
@@ -10,11 +10,8 @@
 
 (function() {
     'use strict';
-    // Wait 2 seconds
-    setTimeout(clickLogin, 2000);
+    window.onload = function () {
+        document.getElementsByClassName("header-main-content")[0].click();
+        document.getElementsByClassName("btn btn-primary btn-block mt-3")[0].click();
+    }
 })();
-
-// Click Login Button
-function clickLogin () {
-    document.getElementsByClassName("btn btn-primary btn-block mt-3")[0].click();
-}
