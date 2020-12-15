@@ -10,8 +10,12 @@
 
 (function() {
     'use strict';
-    window.onload = function () {
-        document.getElementsByClassName("header-main-content")[0].click();
-        document.getElementsByClassName("btn btn-primary btn-block mt-3")[0].click();
-    }
+    // Wait 1.5 seconds
+    setTimeout(clickLogin, 1500);
 })();
+
+// Click Login Button
+function clickLogin () {
+    document.getElementsByClassName("header-main-content")[0].click();
+    document.getElementsByClassName("btn btn-primary btn-block mt-3")[0].click();
+}
